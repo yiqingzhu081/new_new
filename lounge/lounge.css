@@ -1,0 +1,29 @@
+body {
+	font-size: small; 
+	font-family: Georgia, 'Times New Roman';
+  font-style: italic;
+  color:#444444;
+  line-height: 1.9em;
+
+}
+
+h1, h2 {
+	color: #007e7e; 
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px; /* 新增内边距 */
+  margin:              30px;  /* 新增外边距 */
+}
