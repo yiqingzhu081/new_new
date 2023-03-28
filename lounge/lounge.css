@@ -1,7 +1,7 @@
 body {
 	font-size: small; 
 	font-family: Georgia, 'Times New Roman';
-  font-style: italic;
+  
   color:#444444;
   line-height: 1.9em;
 
@@ -26,4 +26,14 @@ h2 {
   background-color:    #a7cece;
   padding:             25px; /* 新增内边距 */
   margin:              30px;  /* 新增外边距 */
+  font-style: italic;
+  color: #444444;
+  font-family: georgia,'times new roman';
+  line-height: 1.9em;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding:25px;
+  padding-left: 80px;
+
 }
