@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ceshi.css">
+</head>
+<body>
+    <p style="color:#ffff00">css的内联引用</p>
+
+    <p style=" color:#ffff00; font-family: '微软雅黑','黑体';">css的内联引用</p>
+
+    <div style="background-color:#0000ff; color:white; padding:20px">一段有背景色和边距的文字</div>
+
+    <p class="qq"style="color:blue;" >这是一段文字观察使class优先级高还是style</p>  <!-- 观察到离这个越近的style优先级越高 -->
+
+    <h1>
+        一段文字
+    </h1>
+    <h2>
+        一段文字 css样式表的优先级测试 这里是越在后面定义的优先级越高
+    </h2>
+
+    <div class="green-font blue-font red-font">
+        观察颜色变化,class中在html中的引用顺序会不会改变在css中定义的引用顺序 结论:不会影响,仍然是在css中越后面定义的优先级越高
+    </div>
+
+    <p class="cname" id="iname">这是一个p\p.cname\p#iname的测试 结果是id优先级最高然后是class最后是p</p>
+
+</body>
+</html>

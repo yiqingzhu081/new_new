@@ -1,0 +1,31 @@
+.qq{
+    color:red;
+}
+
+h1,h2{
+    color: aqua;
+}
+
+h1{
+    color: blueviolet;
+}
+
+。red-font{
+    color: red;
+}
+.green-font{
+    color: green;
+}
+.blue-font{
+    color:blue;
+}
+
+.cname{
+    color: black;
+}
+#iname{
+    color: cadetblue;
+}
+p{
+    color: aquamarine;
+}
