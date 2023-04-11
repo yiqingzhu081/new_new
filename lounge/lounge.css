@@ -25,7 +25,7 @@ h2 {
   border-style:        dashed;
   background-color:    #a7cece;
   padding:             25px; /* 新增内边距 */
-  margin:              30px;  /* 新增外边距 */
+  margin-right:              250px;  /* 新增外边距 */
   font-style: italic;
   color: #444444;
   font-family: georgia,'times new roman';
@@ -35,6 +35,7 @@ h2 {
   background-position: top left;
   padding:25px;
   padding-left: 80px;
+  border-radius: 5px;
   
 }
 
@@ -51,6 +52,7 @@ h2 {
   background-repeat: repeat-x;
   text-align: center;
   line-height: 1;
+  float: right;
 }
 
 .elixirs h2{
@@ -73,4 +75,7 @@ h2 {
 }
 .elixirs a:hover{
   background:#f88396
+}
+.footer{
+  text-align: center;
 }
