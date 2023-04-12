@@ -1,0 +1,65 @@
+span.left {
+    margin-right: 10px;
+    }
+    
+    span.right {
+    margin-left: 20px;
+    }
+    
+    span.ruler {
+    display: inline-block;
+    width: 30px;
+    }
+    
+    
+    div.right {
+    float: right;
+    }
+    
+    div.block {
+    width: 45vw;
+    height: 20vh;
+    border: 2px solid black;
+    }
+    
+    div.top {
+    margin-bottom: 10px;
+    }
+    
+    div.bottom {
+    margin-top: 20px;
+    }
+    
+    div.ruler {
+    height: 20px;
+    }
+    
+    .exterior{
+    margin: 20px;
+    background-color: blue;
+    width: 45vw;
+    height: 20vh;
+    }
+    
+    .interior{
+    margin: 20px;
+    background-color: brown;
+    width: 25vw;
+    height: 10vh;
+    }
+    
+    .exterior1{
+    margin: 20px;
+    background-color: blue;
+    width: 45vw;
+    height: 20vh;
+    border: 2px solid black;
+    }
+    
+    .interior1{
+    margin: 20px;
+    background-color: brown;
+    width: 25vw;
+    height: 10vh;
+    border: 2px solid black;
+    }
