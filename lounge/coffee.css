@@ -18,6 +18,10 @@ body {
     font-size:        105%;
     padding:          15px;
     margin:           0px 330px 10px 10px;
+
+    /* position: relative;
+    top: -500px;
+    left: 0px;  全用相对地址 */
   }
   
   .sidebar {
@@ -30,7 +34,11 @@ body {
     top: 100px;
     right: 200px; */
     width: 280px;
-  
+    
+    /* position: relative;
+    top: 5px;
+    left: 470;  全用相对地址*/
+
   }
   
   .footer {
@@ -74,3 +82,5 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
+
